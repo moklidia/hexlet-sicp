@@ -26,7 +26,7 @@ services:
     volumes:
     - hexlet-sicp-pgdata:/var/lib/postgresql/data
     
- x-uffizzi-ingress:
+x-uffizzi-ingress:
   service: application
   port: 8000
 
